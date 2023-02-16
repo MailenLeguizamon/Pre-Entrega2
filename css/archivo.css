@@ -159,9 +159,20 @@ a {
 }
 
 /* Estilo aplicado al pie de página de html */
+h3 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Solitreo', cursive;
+    color:rgba(14, 13, 13, 0.137);
+    font-size: 20px;
+    max-width: 900px;
+    border-top: 1px solid black;
+    margin: 20px auto 0 auto;
+    height: 2px;
+}
+
 footer {
+    display: grid;
     margin-top: 30px;  
-    display: flex;
     justify-content: space-around;
     padding-top: 20px;
     grid-template-areas: "footer";
